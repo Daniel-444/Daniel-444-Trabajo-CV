@@ -1,0 +1,73 @@
+
+.grid-container{
+ display: grid;
+ grid-template-columns: auto 1fr;
+ grid-template-rows: auto  ;
+ grid-column-gap: 20px;
+ border: 5px solid lightblue;
+ border-radius: 25px;
+ max-width : 210mm;
+ max-height: 297mm;
+ font-family: 'Oswald', sans-serif;
+ 
+
+}
+
+img{
+	width: 200px;
+	height: 200px;	
+	border: 5px solid cadetblue;	
+}
+
+.caja-foto{
+ grid-column: 1/2;
+ grid-row: 1/2;
+ margin-left: 20px;
+ background-color: skyblue; 	  
+}
+
+.caja-nombre{
+	grid-column: 2/3;
+	grid-row: 1/2;		
+}
+.caja-info{
+	grid-column: 2/3;
+	grid-row: 2/3;	
+}
+	
+.caja-educacion{
+ grid-column: 1/2;
+ grid-row: 2/3;
+ margin-left: 20px;
+ background-color: skyblue; 	
+}
+
+.caja-referencias{
+ grid-column: 1/2;
+ grid-row: 4/5;
+ margin-left: 20px;
+ background-color: skyblue; 	
+}
+
+.caja-competencias{
+ grid-column: 1/2;
+ grid-row: 3/4;
+ margin-left: 20px;
+ background-color: skyblue; 	
+}
+	
+.caja-exp{
+	grid-column: 2/3;
+	grid-row: 3/4;
+
+}
+
+.caja-habilidadesT{
+ grid-column: 2/3;
+ grid-row: 4/5;
+}
+
+h2{
+	background-color: royalblue;
+}
+
